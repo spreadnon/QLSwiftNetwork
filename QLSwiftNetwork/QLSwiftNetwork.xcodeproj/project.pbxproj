@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4D6E9014B2B6D164BCEA245 /* Pods_QLSwiftNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F67513D124679576C00976C /* Pods_QLSwiftNetwork.framework */; };
+		F7C4BE9C26253CCC00134C58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4BE9B26253CCC00134C58 /* AppDelegate.swift */; };
+		F7C4BE9E26253CCC00134C58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4BE9D26253CCC00134C58 /* SceneDelegate.swift */; };
+		F7C4BEA026253CCC00134C58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4BE9F26253CCC00134C58 /* ViewController.swift */; };
+		F7C4BEA326253CCC00134C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C4BEA126253CCC00134C58 /* Main.storyboard */; };
+		F7C4BEA526253CCE00134C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C4BEA426253CCE00134C58 /* Assets.xcassets */; };
+		F7C4BEA826253CCE00134C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C4BEA626253CCE00134C58 /* LaunchScreen.storyboard */; };
+		F7C4BEB326253CCF00134C58 /* QLSwiftNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4BEB226253CCF00134C58 /* QLSwiftNetworkTests.swift */; };
+		F7C4BEBE26253CCF00134C58 /* QLSwiftNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4BEBD26253CCF00134C58 /* QLSwiftNetworkUITests.swift */; };
+		F7C4BED226253CDE00134C58 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4BECF26253CDE00134C58 /* NetworkTool.swift */; };
+		F7C4BED326253CDE00134C58 /* NetworkToolRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4BED026253CDE00134C58 /* NetworkToolRequest.swift */; };
+		F7C4BED426253CDE00134C58 /* NetworkToolConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4BED126253CDE00134C58 /* NetworkToolConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7C4BEAF26253CCF00134C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7C4BE9026253CCB00134C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7C4BE9726253CCC00134C58;
+			remoteInfo = QLSwiftNetwork;
+		};
+		F7C4BEBA26253CCF00134C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7C4BE9026253CCB00134C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7C4BE9726253CCC00134C58;
+			remoteInfo = QLSwiftNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F67513D124679576C00976C /* Pods_QLSwiftNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QLSwiftNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7092302F4B1A5F77796C1F23 /* Pods-QLSwiftNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLSwiftNetwork.release.xcconfig"; path = "Target Support Files/Pods-QLSwiftNetwork/Pods-QLSwiftNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		F059CD4FB04177CB05CD227A /* Pods-QLSwiftNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLSwiftNetwork.debug.xcconfig"; path = "Target Support Files/Pods-QLSwiftNetwork/Pods-QLSwiftNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C4BE9826253CCC00134C58 /* QLSwiftNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLSwiftNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C4BE9B26253CCC00134C58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7C4BE9D26253CCC00134C58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F7C4BE9F26253CCC00134C58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7C4BEA226253CCC00134C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7C4BEA426253CCE00134C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7C4BEA726253CCE00134C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7C4BEA926253CCE00134C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C4BEAE26253CCF00134C58 /* QLSwiftNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLSwiftNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C4BEB226253CCF00134C58 /* QLSwiftNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLSwiftNetworkTests.swift; sourceTree = "<group>"; };
+		F7C4BEB426253CCF00134C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C4BEB926253CCF00134C58 /* QLSwiftNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLSwiftNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C4BEBD26253CCF00134C58 /* QLSwiftNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLSwiftNetworkUITests.swift; sourceTree = "<group>"; };
+		F7C4BEBF26253CCF00134C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C4BECF26253CDE00134C58 /* NetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		F7C4BED026253CDE00134C58 /* NetworkToolRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkToolRequest.swift; sourceTree = "<group>"; };
+		F7C4BED126253CDE00134C58 /* NetworkToolConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkToolConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7C4BE9526253CCC00134C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D6E9014B2B6D164BCEA245 /* Pods_QLSwiftNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C4BEAB26253CCF00134C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C4BEB626253CCF00134C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28A9B14E1429A7D974B2954B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F67513D124679576C00976C /* Pods_QLSwiftNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4A62CF05D9048F8268D27F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F059CD4FB04177CB05CD227A /* Pods-QLSwiftNetwork.debug.xcconfig */,
+				7092302F4B1A5F77796C1F23 /* Pods-QLSwiftNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7C4BE8F26253CCB00134C58 = {
+			isa = PBXGroup;
+			children = (
+				F7C4BE9A26253CCC00134C58 /* QLSwiftNetwork */,
+				F7C4BEB126253CCF00134C58 /* QLSwiftNetworkTests */,
+				F7C4BEBC26253CCF00134C58 /* QLSwiftNetworkUITests */,
+				F7C4BE9926253CCC00134C58 /* Products */,
+				C4A62CF05D9048F8268D27F2 /* Pods */,
+				28A9B14E1429A7D974B2954B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7C4BE9926253CCC00134C58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7C4BE9826253CCC00134C58 /* QLSwiftNetwork.app */,
+				F7C4BEAE26253CCF00134C58 /* QLSwiftNetworkTests.xctest */,
+				F7C4BEB926253CCF00134C58 /* QLSwiftNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7C4BE9A26253CCC00134C58 /* QLSwiftNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				F7C4BE9B26253CCC00134C58 /* AppDelegate.swift */,
+				F7C4BE9D26253CCC00134C58 /* SceneDelegate.swift */,
+				F7C4BE9F26253CCC00134C58 /* ViewController.swift */,
+				F7C4BECE26253CDE00134C58 /* NetworkTool */,
+				F7C4BEA126253CCC00134C58 /* Main.storyboard */,
+				F7C4BEA426253CCE00134C58 /* Assets.xcassets */,
+				F7C4BEA626253CCE00134C58 /* LaunchScreen.storyboard */,
+				F7C4BEA926253CCE00134C58 /* Info.plist */,
+			);
+			path = QLSwiftNetwork;
+			sourceTree = "<group>";
+		};
+		F7C4BEB126253CCF00134C58 /* QLSwiftNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7C4BEB226253CCF00134C58 /* QLSwiftNetworkTests.swift */,
+				F7C4BEB426253CCF00134C58 /* Info.plist */,
+			);
+			path = QLSwiftNetworkTests;
+			sourceTree = "<group>";
+		};
+		F7C4BEBC26253CCF00134C58 /* QLSwiftNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7C4BEBD26253CCF00134C58 /* QLSwiftNetworkUITests.swift */,
+				F7C4BEBF26253CCF00134C58 /* Info.plist */,
+			);
+			path = QLSwiftNetworkUITests;
+			sourceTree = "<group>";
+		};
+		F7C4BECE26253CDE00134C58 /* NetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				F7C4BECF26253CDE00134C58 /* NetworkTool.swift */,
+				F7C4BED026253CDE00134C58 /* NetworkToolRequest.swift */,
+				F7C4BED126253CDE00134C58 /* NetworkToolConfig.swift */,
+			);
+			path = NetworkTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7C4BE9726253CCC00134C58 /* QLSwiftNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C4BEC226253CCF00134C58 /* Build configuration list for PBXNativeTarget "QLSwiftNetwork" */;
+			buildPhases = (
+				82664CD0A03551F1B75DF7B6 /* [CP] Check Pods Manifest.lock */,
+				F7C4BE9426253CCC00134C58 /* Sources */,
+				F7C4BE9526253CCC00134C58 /* Frameworks */,
+				F7C4BE9626253CCC00134C58 /* Resources */,
+				012D3B647AAF035B0F005A4A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLSwiftNetwork;
+			productName = QLSwiftNetwork;
+			productReference = F7C4BE9826253CCC00134C58 /* QLSwiftNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7C4BEAD26253CCF00134C58 /* QLSwiftNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C4BEC526253CCF00134C58 /* Build configuration list for PBXNativeTarget "QLSwiftNetworkTests" */;
+			buildPhases = (
+				F7C4BEAA26253CCF00134C58 /* Sources */,
+				F7C4BEAB26253CCF00134C58 /* Frameworks */,
+				F7C4BEAC26253CCF00134C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7C4BEB026253CCF00134C58 /* PBXTargetDependency */,
+			);
+			name = QLSwiftNetworkTests;
+			productName = QLSwiftNetworkTests;
+			productReference = F7C4BEAE26253CCF00134C58 /* QLSwiftNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7C4BEB826253CCF00134C58 /* QLSwiftNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C4BEC826253CCF00134C58 /* Build configuration list for PBXNativeTarget "QLSwiftNetworkUITests" */;
+			buildPhases = (
+				F7C4BEB526253CCF00134C58 /* Sources */,
+				F7C4BEB626253CCF00134C58 /* Frameworks */,
+				F7C4BEB726253CCF00134C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7C4BEBB26253CCF00134C58 /* PBXTargetDependency */,
+			);
+			name = QLSwiftNetworkUITests;
+			productName = QLSwiftNetworkUITests;
+			productReference = F7C4BEB926253CCF00134C58 /* QLSwiftNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7C4BE9026253CCB00134C58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F7C4BE9726253CCC00134C58 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F7C4BEAD26253CCF00134C58 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F7C4BE9726253CCC00134C58;
+					};
+					F7C4BEB826253CCF00134C58 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F7C4BE9726253CCC00134C58;
+					};
+				};
+			};
+			buildConfigurationList = F7C4BE9326253CCB00134C58 /* Build configuration list for PBXProject "QLSwiftNetwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7C4BE8F26253CCB00134C58;
+			productRefGroup = F7C4BE9926253CCC00134C58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7C4BE9726253CCC00134C58 /* QLSwiftNetwork */,
+				F7C4BEAD26253CCF00134C58 /* QLSwiftNetworkTests */,
+				F7C4BEB826253CCF00134C58 /* QLSwiftNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7C4BE9626253CCC00134C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C4BEA826253CCE00134C58 /* LaunchScreen.storyboard in Resources */,
+				F7C4BEA526253CCE00134C58 /* Assets.xcassets in Resources */,
+				F7C4BEA326253CCC00134C58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C4BEAC26253CCF00134C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C4BEB726253CCF00134C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		012D3B647AAF035B0F005A4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QLSwiftNetwork/Pods-QLSwiftNetwork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QLSwiftNetwork/Pods-QLSwiftNetwork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QLSwiftNetwork/Pods-QLSwiftNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82664CD0A03551F1B75DF7B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QLSwiftNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7C4BE9426253CCC00134C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C4BED226253CDE00134C58 /* NetworkTool.swift in Sources */,
+				F7C4BEA026253CCC00134C58 /* ViewController.swift in Sources */,
+				F7C4BED426253CDE00134C58 /* NetworkToolConfig.swift in Sources */,
+				F7C4BED326253CDE00134C58 /* NetworkToolRequest.swift in Sources */,
+				F7C4BE9C26253CCC00134C58 /* AppDelegate.swift in Sources */,
+				F7C4BE9E26253CCC00134C58 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C4BEAA26253CCF00134C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C4BEB326253CCF00134C58 /* QLSwiftNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C4BEB526253CCF00134C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C4BEBE26253CCF00134C58 /* QLSwiftNetworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7C4BEB026253CCF00134C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7C4BE9726253CCC00134C58 /* QLSwiftNetwork */;
+			targetProxy = F7C4BEAF26253CCF00134C58 /* PBXContainerItemProxy */;
+		};
+		F7C4BEBB26253CCF00134C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7C4BE9726253CCC00134C58 /* QLSwiftNetwork */;
+			targetProxy = F7C4BEBA26253CCF00134C58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7C4BEA126253CCC00134C58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7C4BEA226253CCC00134C58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7C4BEA626253CCE00134C58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7C4BEA726253CCE00134C58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7C4BEC026253CCF00134C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7C4BEC126253CCF00134C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7C4BEC326253CCF00134C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F059CD4FB04177CB05CD227A /* Pods-QLSwiftNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 226YH5AK6L;
+				INFOPLIST_FILE = QLSwiftNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = QL.QLSwiftNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7C4BEC426253CCF00134C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7092302F4B1A5F77796C1F23 /* Pods-QLSwiftNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 226YH5AK6L;
+				INFOPLIST_FILE = QLSwiftNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = QL.QLSwiftNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7C4BEC626253CCF00134C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 226YH5AK6L;
+				INFOPLIST_FILE = QLSwiftNetworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = QL.QLSwiftNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLSwiftNetwork.app/QLSwiftNetwork";
+			};
+			name = Debug;
+		};
+		F7C4BEC726253CCF00134C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 226YH5AK6L;
+				INFOPLIST_FILE = QLSwiftNetworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = QL.QLSwiftNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLSwiftNetwork.app/QLSwiftNetwork";
+			};
+			name = Release;
+		};
+		F7C4BEC926253CCF00134C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 226YH5AK6L;
+				INFOPLIST_FILE = QLSwiftNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = QL.QLSwiftNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QLSwiftNetwork;
+			};
+			name = Debug;
+		};
+		F7C4BECA26253CCF00134C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 226YH5AK6L;
+				INFOPLIST_FILE = QLSwiftNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = QL.QLSwiftNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QLSwiftNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7C4BE9326253CCB00134C58 /* Build configuration list for PBXProject "QLSwiftNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C4BEC026253CCF00134C58 /* Debug */,
+				F7C4BEC126253CCF00134C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C4BEC226253CCF00134C58 /* Build configuration list for PBXNativeTarget "QLSwiftNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C4BEC326253CCF00134C58 /* Debug */,
+				F7C4BEC426253CCF00134C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C4BEC526253CCF00134C58 /* Build configuration list for PBXNativeTarget "QLSwiftNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C4BEC626253CCF00134C58 /* Debug */,
+				F7C4BEC726253CCF00134C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C4BEC826253CCF00134C58 /* Build configuration list for PBXNativeTarget "QLSwiftNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C4BEC926253CCF00134C58 /* Debug */,
+				F7C4BECA26253CCF00134C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7C4BE9026253CCB00134C58 /* Project object */;
+}
